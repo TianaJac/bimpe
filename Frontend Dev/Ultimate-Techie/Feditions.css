@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Pulp Display';
+    src: url('./fonts/PulpDisplay-Bold.eot');
+    src: local('./fonts/Pulp Display Bold'), local('PulpDisplay-Bold'),
+        url('./fonts/PulpDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/PulpDisplay-Bold.woff2') format('woff2'),
+        url('./fonts/PulpDisplay-Bold.woff') format('woff'),
+        url('./fonts/PulpDisplay-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+body{
+    margin:0;
+    padding:0;
+    width:100%;
+    overflow-x: hidden;
+    font-family: 'Pulp Display';
+}
+.container{
+    width:100%;
+    margin:auto;
+}
+.col-4{
+    width:23%;
+    box-sizing: border-box;
+}
+.my-5{margin:5rem 0}
+.our-target{
+    text-align: center;
+    padding:3rem 0;
+    background: #fff;
+    color:rgb(0, 0, 0);
+    margin:5rem 0 2rem 0;
+    
+}
+.box{
+    border:2px solid grey;
+    padding:1.5rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
